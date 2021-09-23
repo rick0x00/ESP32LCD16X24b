@@ -1,4 +1,4 @@
-(module ESP32-DEVKITV1 (layer F.Cu) (tedit 61313E7B)
+(module ESP32-DEVKITV1 (layer F.Cu) (tedit 614CAD52)
   (fp_text reference REF** (at -14.605 -15.875) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -135,4 +135,9 @@
   (pad D15 thru_hole circle (at -11.44 12.27) (size 1.9304 1.9304) (drill 1) (layers *.Cu *.Mask))
   (pad GND@2 thru_hole circle (at -13.98 12.27) (size 1.9304 1.9304) (drill 1) (layers *.Cu *.Mask))
   (pad 3V3 thru_hole circle (at -16.52 12.27) (size 1.9304 1.9304) (drill 1) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/COMPLEMENT/esp-32-1.snapshot.6/ESP-32_v1.STEP
+    (offset (xyz 5 -6 -50))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
